@@ -28,13 +28,16 @@
     "@elizaos/plugin-solana": "0.1.9",
     "@elizaos/plugin-starknet": "0.1.9",
     "@tavily/core": "0.0.2",
+    "@types/uuid": "^10.0.0",
     "amqplib": "0.10.5",
     "better-sqlite3": "11.5.0",
+    "ethers": "^5.8.0",
     "fs": "0.0.1-security",
     "net": "1.0.2",
     "path": "0.12.7",
     "readline": "1.3.0",
     "url": "0.11.4",
+    "uuid": "^10.0.0",
     "ws": "8.18.0",
     "yargs": "17.7.2"
   },
@@ -47,9 +50,9 @@
     }
   },
   "devDependencies": {
+    "pm2": "5.4.3",
     "ts-node": "10.9.2",
     "tsup": "8.3.5",
-    "typescript": "5.6.3",
-    "pm2": "5.4.3" 
+    "typescript": "5.6.3"
   }
 }

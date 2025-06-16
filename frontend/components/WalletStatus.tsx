@@ -18,15 +18,15 @@ const WalletStatus: React.FC<WalletStatusProps> = ({ connected, account, onConne
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
             </svg>
           </div>
-          <h3 className="text-xl font-semibold text-white mb-2">Connect Your Wallet</h3>
+          <h3 className="text-xl font-semibold text-white mb-2">Cüzdanınızı Bağlayın</h3>
           <p className="text-white/70 mb-6">
-            Connect your MetaMask wallet to start using the prediction market orchestrator
+            Tahmin piyasası orkestratörünü kullanmaya başlamak için MetaMask cüzdanınızı bağlayın
           </p>
           <button
             onClick={onConnect}
             className="w-full bg-gradient-to-r from-purple-500 to-blue-500 text-white py-3 px-6 rounded-lg font-semibold hover:opacity-90 transition-opacity"
           >
-            Connect Wallet
+            Cüzdan Bağla
           </button>
         </div>
       </div>
@@ -43,14 +43,14 @@ const WalletStatus: React.FC<WalletStatusProps> = ({ connected, account, onConne
             </svg>
           </div>
           <div>
-            <h3 className="text-lg font-semibold text-white">Wallet Connected</h3>
+            <h3 className="text-lg font-semibold text-white">Cüzdan Bağlandı</h3>
             <p className="text-white/70 text-sm">
               {account.slice(0, 6)}...{account.slice(-4)}
             </p>
           </div>
         </div>
         <div className="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm font-medium">
-          Connected
+          Bağlı
         </div>
       </div>
     </div>
